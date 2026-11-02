@@ -8,4 +8,6 @@ modules, changes preprocessing and metric handling, and adds command-line
 workflows, configuration, tests, and documentation.
 
 The source notebook is displayed under Apache License 2.0 on Kaggle.
-Dataset content and pretrained weights are not distributed with this code.
+One saved notebook result figure is reproduced for illustration; see
+figures/README.md. Full training datasets, annotation files, and pretrained
+weights are not distributed with this code. Dataset terms remain separate.

@@ -1,6 +1,6 @@
 # Flickr30k data setup
 
-The original notebook reads [hsankesara/flickr-image-dataset](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset). Obtain the data from its provider and follow the dataset's access and usage terms. This repository includes no dataset images, annotations, or test photos.
+The original notebook reads [hsankesara/flickr-image-dataset](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset). Obtain the data from its provider and follow the dataset's access and usage terms. Full training datasets, annotation files, and private test photos are not included. One saved notebook result figure is reproduced in the README; see [figure provenance](../figures/README.md).
 
 The package expects a header followed by **pipe-separated** rows, one caption per row:
 

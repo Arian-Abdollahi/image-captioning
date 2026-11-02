@@ -4,6 +4,14 @@ Generate natural-language descriptions of images using a **ResNet-50 encoder** a
 
 This project reorganizes [Arian Abdollahi's Kaggle notebook](https://www.kaggle.com/code/arianabdollahi/image-captioning) into a Python package with separate data, model, training, evaluation, and inference modules. The original notebook source is preserved in [notebooks/](notebooks/).
 
+## Example result
+
+![Saved captioning result: a black dog swimming with a yellow ball in its mouth](figures/kaggle_caption_dog.png)
+
+**Generated caption:** "a black dog is swimming in the water with a yellow ball in its mouth."
+
+Saved autoregressive output from the [original Kaggle notebook](https://www.kaggle.com/code/arianabdollahi/image-captioning), version 3. Caption text is shown with list formatting removed and punctuation spacing normalized. See [figure provenance](figures/README.md).
+
 ## Model
 
 | Component | Default configuration |
@@ -120,4 +128,4 @@ For the guided notebook and optional plots, install `python -m pip install '.[no
 
 ## License and credits
 
-The Kaggle notebook is displayed under Apache License 2.0; this adaptation retains that license. See [LICENSE](LICENSE), [NOTICE](NOTICE), and [CREDITS.md](CREDITS.md). Dataset images, captions, and pretrained weights have their own terms and are not distributed with this repository.
+The Kaggle notebook is displayed under Apache License 2.0; this adaptation retains that license. See [LICENSE](LICENSE), [NOTICE](NOTICE), and [CREDITS.md](CREDITS.md). Dataset content and pretrained weights retain their own terms. One saved result figure is included for illustration; full training datasets, annotation files, and pretrained weights are not distributed with this repository.
