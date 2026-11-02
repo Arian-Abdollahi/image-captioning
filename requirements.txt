@@ -1,0 +1,2 @@
+# Install a matching torch/torchvision pair for your CPU or CUDA platform first.
+-e .

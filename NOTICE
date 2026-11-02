@@ -1,0 +1,11 @@
+Image Captioning
+Original notebook author: Arian Abdollahi
+Source: https://www.kaggle.com/code/arianabdollahi/image-captioning
+
+This repository contains an unmodified copy of the original notebook source
+and an adapted Python package. The adaptation separates notebook code into
+modules, changes preprocessing and metric handling, and adds command-line
+workflows, configuration, tests, and documentation.
+
+The source notebook is displayed under Apache License 2.0 on Kaggle.
+Dataset content and pretrained weights are not distributed with this code.

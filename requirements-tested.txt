@@ -1,0 +1,12 @@
+# Top-level versions used with Python 3.12.14 for CPU verification.
+# First install torch/torchvision from https://download.pytorch.org/whl/cpu
+# (or select a matching CUDA build). This is not a full transitive lockfile.
+torch==2.15.0
+torchvision==0.29.2
+spacy==3.8.18
+gensim==4.4.0
+numpy==2.3.5
+scipy==1.17.0
+Pillow==12.3.0
+tqdm==4.70.1
+-e .

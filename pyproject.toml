@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arian-image-captioning"
+version = "0.1.0"
+description = "Flickr30k image captioning with ResNet-50 and a Transformer decoder"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{name = "Arian Abdollahi"}]
+dependencies = [
+  "torch>=2.6,<3",
+  "torchvision>=0.21,<1",
+  "Pillow>=10,<13",
+  "spacy>=3.8,<4",
+  "gensim>=4.3.3,<5",
+  "numpy>=1.26,<3",
+  "tqdm>=4.66,<5",
+]
+
+[project.optional-dependencies]
+notebooks = ["jupyterlab>=4,<5", "matplotlib>=3.8,<4"]
+dev = ["ruff>=0.12,<1"]
+
+[project.urls]
+Repository = "https://github.com/Arian-Abdollahi/image-captioning"
+Notebook = "https://www.kaggle.com/code/arianabdollahi/image-captioning"
+
+[project.scripts]
+caption-train = "image_captioning.train:main"
+caption-evaluate = "image_captioning.evaluate:main"
+caption-predict = "image_captioning.predict:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
